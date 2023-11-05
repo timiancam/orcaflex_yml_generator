@@ -12,7 +12,7 @@ https://python-poetry.org/docs/#installation
 In your terminal, type the following:
 
 ```sh
-git clone https://github.com/timiancam/orcaflex_yml_generator
+git clone https://github.com/timiancam/orcaflex_yml_generator.git
 cd orcaflex_yml_generator
 poetry shell
 poetry install # Check that your terminal is in the correct virtual environment
