@@ -3,17 +3,15 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
-name = "python_package_template"
+name = "orcaflex_yml_generator"
 authors = ["Timothy Cameron <timiancam@gmail.com>"]
-version = "0.1"
-description = "My package description"
+version = "1.0"
+description = "Generates OrcaFlex simulation model text files with diverse input parameters."
 readme = "README.md"
-keywords = ["one", "two"]
+keywords = ["OrcaFlex"]
 license = "MIT"
-repository = "https:://github.com/timiancam/python_package_template"
-packages = [
-    { include = "python_package_template" },
-]
+repository = "https://github.com/timiancam/orcaflex_yml_generator"
+packages = [{include = "orcaflex_yml_generator"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
