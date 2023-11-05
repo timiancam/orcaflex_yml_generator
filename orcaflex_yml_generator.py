@@ -6,8 +6,6 @@ friction_coefficient_number-of-supports_support-size.yml
 0.3_5_25.yml
 """
 
-import math
-
 ORIGINAL_NUMBER_OF_SUPPORTS = 5
 FRICTION_COEFFICIENTS = [0.3, 0.4, 0.5]
 NUMBER_OF_SUPPORTS = [5, 6, 7]
