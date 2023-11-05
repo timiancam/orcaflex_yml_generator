@@ -23,8 +23,6 @@ Run the .py file.
 
 ## To do:
 
-* Final check
-* Charlotte check
 * Better Format / Spacing / Indentation control for text - replaces spaces with \t?
 * Potential efficiency gain? - remove for loop in def get_user_support_length_text()
   * similarly for get_support_arclengths()?
