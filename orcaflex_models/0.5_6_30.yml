@@ -1,0 +1,31 @@
+%YAML 1.1
+# Type: Model
+# Program: OrcaFlex 11.3d
+---
+BaseFile: 0_initial_model.dat
+SupportTypes:
+  main_support:
+    UserSupportLength[1]: 0.012426406871192851
+    UserSupportLength[2]: 0.012426406871192851
+    UserSupportLength[3]: 0.012426406871192851
+    UserSupportLength[4]: 0.012426406871192851
+    UserSupportLength[5]: 0.012426406871192851
+6DBuoys:
+  supports:
+    NumberOfSupports: 6
+    SupportArcLength[1]: 0 
+    SupportzOffset[1]: -0.015
+    SupportArcLength[2]: 0.8 
+    SupportzOffset[2]: -0.015
+    SupportArcLength[3]: 1.6 
+    SupportzOffset[3]: -0.015
+    SupportArcLength[4]: 2.4000000000000004 
+    SupportzOffset[4]: -0.015
+    SupportArcLength[5]: 3.2 
+    SupportzOffset[5]: -0.015
+    SupportType[6]: main_support
+    SupportArcLength[6]: 4.0
+    SupportzOffset[6]: -0.015 
+FrictionCoefficients:
+  SupportTypeLateralCoefficient[1]: 0.5
+...
