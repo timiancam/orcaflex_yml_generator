@@ -6,16 +6,6 @@ friction_coefficient_number-of-supports_support-size.yml
 0.3_5_25.yml
 """
 
-# To-Do
-    # Repository metadata
-    # Better Format / Spacing / Indentation control for text - replaces spaces with \t?
-    # Potential efficiency gain? - remove for loop in def get_user_support_length_text()
-        # similarly for get_support_arclengths()?
-        # similarly for get_support_text_part1()?
-        # similarly for get_support_text_part2()?
-        # similarly for nested for loop?
-        # https://stackoverflow.com/questions/42098527/print-a-nested-lists-line-by-line-without-for-loop
-
 import math
 
 ORIGINAL_NUMBER_OF_SUPPORTS = 5
