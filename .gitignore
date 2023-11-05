@@ -1,0 +1,8 @@
+*.ipynb_checkpoints
+*.DS_store
+*.pyc
+*.code-workspace
+*__pycache__
+*.cache
+*.venv
+*.lock

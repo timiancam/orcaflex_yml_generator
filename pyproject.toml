@@ -1,0 +1,19 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "python_package_template"
+authors = ["Timothy Cameron <timiancam@gmail.com>"]
+version = "0.1"
+description = "My package description"
+readme = "README.md"
+keywords = ["one", "two"]
+license = "MIT"
+repository = "https:://github.com/timiancam/python_package_template"
+packages = [
+    { include = "python_package_template" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
